@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # to click course tab
     WebDriverWait(driver, 5).until(EC.element_to_be_clickable(tabs[1])).click()
     
-    # click more until the end
+    # click 'more' button until the end
     is_end = True
     while is_end:
         try:
