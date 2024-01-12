@@ -2,13 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import re
 import json
 
 if __name__ == '__main__':
     # initialize an instance of the chrome driver (browser)
     driver = webdriver.Chrome()
-    
+
     # visit your target site
     links = {
         'Faculty of economics and management': 'https://ekursi.rta.lv/course/index.php?categoryid=4&browse=courses&perpage=600',
